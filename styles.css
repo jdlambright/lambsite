@@ -1,3 +1,9 @@
 body{
-  background-color: blue;
+  background-color: #3b6978;
+  color: #84a9ac;
+  font-family: "Roboto";
+}
+h1{
+  color: #e7dfd5;
+  font-family: "Sacramento";
 }
