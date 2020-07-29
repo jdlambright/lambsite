@@ -6,4 +6,17 @@ body{
 h1{
   color: #e7dfd5;
   font-family: "Sacramento";
+  text-align: center;
+}
+#carousel{
+  background-color: #3b6978;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.carousel-img{
+  margin: auto;
+  width: 35%;
+}
+.ctl-btn{
+  padding: 30px;
 }
