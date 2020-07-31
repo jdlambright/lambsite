@@ -8,8 +8,19 @@ h1{
   font-family: "Sacramento";
   font-size: 4rem;
   font-weight: bolder;
-
 }
+
+h2{
+  color:#3b6978;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+p{
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
 #carousel{
   background-color: #3b6978;
   padding-top: 3%;
@@ -29,6 +40,7 @@ h1{
 }
 
 .mtn-img{
+  width: 90%;
   padding-bottom: 10%;
 }
 
@@ -42,4 +54,11 @@ h1{
   position: absolute;
   top: 75px;
   right: 10%;
+}
+
+#love{
+  background-color:  #e7dfd5;
+  color:  #84a9ac;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
