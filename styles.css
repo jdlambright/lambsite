@@ -25,7 +25,13 @@ h4{
   font-size: 1.5rem;
   line-height: 2;
 }
-
+hr{
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+  margin: 100px auto;
+  width: 5%;
+}
 .dark-section{
   background-color: #3b6978;
 }
@@ -85,7 +91,7 @@ h4{
 
 
 .raptor{
-  padding-top: 5%;
+  padding-top: 2%;
   padding-bottom: 5%;
   width: 35%;
 }
@@ -106,6 +112,12 @@ h4{
 }
 
 /* you're right */
-.tenor-gif-embed{
-  width: 80%;
+.correct{
+  background-color: #84a9ac;
+  padding: 5%;
+}
+.gif-size{
+  margin: auto;
+  width: 65%;
+
 }
