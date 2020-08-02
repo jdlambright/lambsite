@@ -12,15 +12,18 @@ h1{
 
 h2{
   color:#3b6978;
-  font-size: 3rem;
+  
+  font-size: 4rem;
   font-weight: bolder;
 }
-
-p{
+ul{
   font-size: 1.5rem;
   line-height: 2;
+  text-align: left;
 }
-
+p{
+  font-size: 2rem;
+}
 #carousel{
   background-color: #3b6978;
   padding-top: 3%;
@@ -60,5 +63,10 @@ p{
   background-color:  #e7dfd5;
   color:  #84a9ac;
   padding-top: 10%;
-  padding-bottom: 10%;
+}
+
+.love-pic{
+  padding-top: 7%;
+  padding-bottom: 7%;
+  width: 65%;
 }
