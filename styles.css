@@ -82,14 +82,19 @@ h4{
 }
 
 /* game section */
+
+
 .raptor{
-  width: 30%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 35%;
 }
 
 .game-intro{
   font-size: 1.5rem;
-  text-align: left;
-  width: 60%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 30%;
 }
 @media (max-width: 1028px){
   #welcome{
@@ -98,4 +103,9 @@ h4{
   .game-intro{
     text-align: center;
   }
+}
+
+/* you're right */
+.tenor-gif-embed{
+  width: 80%;
 }
