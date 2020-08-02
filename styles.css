@@ -12,20 +12,28 @@ h1{
 
 h2{
   color:#3b6978;
-  
   font-size: 4rem;
   font-weight: bolder;
 }
-ul{
+
+h3{
+  color:#3b6978;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+h4{
   font-size: 1.5rem;
   line-height: 2;
-  text-align: left;
 }
-p{
-  font-size: 2rem;
+
+.dark-section{
+  background-color: #3b6978;
+}
+
+.light-section{
+  background-color: #e7dfd5;
 }
 #carousel{
-  background-color: #3b6978;
   padding-top: 3%;
   padding-bottom: 3%;
 }
@@ -38,8 +46,9 @@ p{
 }
 
 #welcome{
-  background-color: #3b6978;
   padding-top: 5%;
+  padding-left: 10%;
+  text-align: left;
 }
 
 .mtn-img{
@@ -63,10 +72,30 @@ p{
   background-color:  #e7dfd5;
   color:  #84a9ac;
   padding-top: 10%;
+  padding-bottom: 7%;
 }
 
 .love-pic{
   padding-top: 7%;
   padding-bottom: 7%;
   width: 65%;
+}
+
+/* game section */
+.raptor{
+  width: 30%;
+}
+
+.game-intro{
+  font-size: 1.5rem;
+  text-align: left;
+  width: 60%;
+}
+@media (max-width: 1028px){
+  #welcome{
+    text-align: center;
+  }
+  .game-intro{
+    text-align: center;
+  }
 }
