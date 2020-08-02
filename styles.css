@@ -88,7 +88,9 @@ hr{
 }
 
 /* game section */
-
+#game{
+  padding-bottom: 8%;
+}
 
 .raptor{
   padding-top: 2%;
@@ -102,6 +104,16 @@ hr{
   padding-bottom: 5%;
   width: 30%;
 }
+.gamecontent{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.gamepic{
+  padding: 3% 0%;
+  width: 50%;
+}
+
 @media (max-width: 1028px){
   #welcome{
     text-align: center;
@@ -111,13 +123,13 @@ hr{
   }
 }
 
-/* you're right */
-.correct{
+/* ansnwer outcomes */
+.answer{
   background-color: #84a9ac;
   padding: 5%;
 }
 .gif-size{
   margin: auto;
-  width: 65%;
+  width: 50%;
 
 }
