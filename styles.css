@@ -85,7 +85,7 @@ hr{
   padding-top: 7%;
   padding-bottom: 7%;
   width: 65%;
-  border-radius: auto;
+  border-radius: 100%;
 }
 
 /* game section */
@@ -97,7 +97,7 @@ hr{
   padding-top: 2%;
   padding-bottom: 5%;
   width: 35%;
-  border-radius: auto;
+  border-radius: ;
 }
 
 .game-intro{
@@ -114,6 +114,7 @@ hr{
 .gamepic{
   padding: 3% 0%;
   width: 50%;
+  border-radius: 100%;
 }
 
 /* footer */
